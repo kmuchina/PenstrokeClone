@@ -1,0 +1,38 @@
+[
+    {
+        "objectID": "1",
+        "imgSrc": "../assets/images/img_0337.webp",
+        "imgAlt": "Picture of Joseph.",
+        "date": "07 Sept 2023",
+        "href": "/",
+        "title": "Fuga error dolor quo.",
+        "preview": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, iusto alias maxime dolores laboriosam provident est explicabo omnis ratione neque voluptatum dolor aspernatur! Voluptatum laudantium ratione, deleniti esse libero incidunt!"
+    },
+    {
+        "objectID": "2",
+        "imgSrc": "./images/img_0337.webp",
+        "imgAlt": "Picture of Joseph.",
+        "date": "07 Sept 2023",
+        "href": "/",
+        "title": "Fuga error dolor quo.",
+        "preview": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, iusto alias maxime dolores laboriosam provident est explicabo omnis ratione neque voluptatum dolor aspernatur! Voluptatum laudantium ratione, deleniti esse libero incidunt!"
+    },
+    {
+        "objectID": "3",
+        "imgSrc": "./images/img_0337.webp",
+        "imgAlt": "Picture of Joseph.",
+        "date": "07 Sept 2023",
+        "href": "/",
+        "title": "Fuga error dolor quo.",
+        "preview": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, iusto alias maxime dolores laboriosam provident est explicabo omnis ratione neque voluptatum dolor aspernatur! Voluptatum laudantium ratione, deleniti esse libero incidunt!"
+    },
+    {
+        "objectID": "4",
+        "imgSrc": "./images/img_0337.webp",
+        "imgAlt": "Picture of Joseph.",
+        "date": "07 Sept 2023",
+        "href": "/",
+        "title": "Fuga error dolor quo.",
+        "preview": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, iusto alias maxime dolores laboriosam provident est explicabo omnis ratione neque voluptatum dolor aspernatur! Voluptatum laudantium ratione, deleniti esse libero incidunt!"
+    }
+]

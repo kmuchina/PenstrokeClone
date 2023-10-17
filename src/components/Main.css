@@ -1,0 +1,18 @@
+main article {
+    width: 800px;
+    height: 300px;
+    border: 1px solid #ea1538;
+}
+
+main article figure {
+    float: left;
+    margin: 20px;
+}
+
+main article .main {
+    margin: 20px;
+}
+
+main .main button {
+    padding: 5px;
+}
