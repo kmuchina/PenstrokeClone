@@ -1,0 +1,164 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#topbar{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 1200px;
+    margin: 0px auto;
+
+    
+}
+
+#logo{
+    width: 400px;
+    margin: 15px auto;
+
+}
+
+nav{
+    height: 50px;
+    width: 1200px;
+    text-align: center;
+    border: 1px solid grey;
+    margin: 0px auto;
+    
+}
+
+ul{
+    margin-top: 16px;
+}
+
+nav ul li{
+    text-transform: uppercase;
+    display: inline;
+    margin-right: 10px;
+    padding: 12px;
+    padding-bottom: 17px;
+    font-size: 13px;
+    
+}
+
+nav li:hover{
+    background-color: red;
+
+     
+}
+
+nav li:hover a{
+    color: white;
+}   /*rives on this note the difference betweeh a:hover{} and nav li:hover a{}*/ 
+
+
+#root{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+main{
+    float: left;
+}
+
+main article{
+    width: 800px;
+    height: 300px;
+    /* border: 2px solid red; */
+
+}
+
+main article figure{
+    float: left;
+    margin: 16px;
+}
+
+main article figure img{
+    height: 170px;
+    width: 250px;
+}
+
+article .main{
+    margin: 16px;
+}
+
+section ul li{
+    height: 50px;
+    width: 100px;
+    display: inline;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+section li:hover {
+    background-color: red;
+}
+section ul li:hover a{
+    color: green;
+}
+
+aside{
+    height: 400px;
+    width: 380px;
+    /* background-color:red ; */
+    float: right;
+}
+aside form input{ 
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+div aside h3 a{
+    height: 50px;
+    width: 300px ;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ 
+aside div img{
+    height: 300px;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+aside ul{
+    width: 400px;
+}
+
+aside ul li {
+    height: 20px;
+    width: 50px;
+    color: grey;
+    text-align: right;
+    display: inline;
+    border: 1px solid grey;
+    padding: 2px;
+}
+
+aside section> div{
+    height: 100px;
+    width: 400px;
+}
+aside section div img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    
+}
+
