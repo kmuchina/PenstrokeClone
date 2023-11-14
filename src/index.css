@@ -1,7 +1,7 @@
 /* 
 =============================================
-Author: Kennedy Muchina
-Contact: muchina537@gmail.com
+Author: Kennedy Muchina, Moses Macharia
+Contact: muchina537@gmail.com, machariamoses39@gmail.com
 Copyright: MIT
 Date: Oct 05, 2023
 =============================================
@@ -62,7 +62,7 @@ aside {
     max-width: 500px;
     min-width: 250px;
     /* float: right; */
-    background-color: #adadb7;
+
 }
 
 @media screen and (max-width: 800px) {

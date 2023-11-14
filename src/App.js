@@ -11,10 +11,11 @@ const App = () => {
 
 			<div id="wrapper">
 				<Main />
-				<Aside />
+				 <Aside /> 
 			</div>
 
 			<footer></footer>
+		
 
 		</>
   );
