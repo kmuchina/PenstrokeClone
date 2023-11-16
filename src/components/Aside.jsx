@@ -1,16 +1,16 @@
 import "./Aside.css"
 import img28 from "../assets/images/WinnerBADGES2019_300px (1).webp"
-import img1 from "../assets/images/mosee.webp"
-import img2 from "../assets/images/josee.webp"
-import img3 from "../assets/images/coffineby.webp"
+// import img1 from "../assets/images/mosee.webp"
+// import img2 from "../assets/images/josee.webp"
+// import img3 from "../assets/images/coffineby.webp"
 import img27 from "../assets/images/BAKE-Awards-2017-Winners-Badge.webp"
 import img6 from "../assets/images/BAKE-Winner.webp"
 import img7 from "../assets/images/Baesics.webp"
 import img9 from "../assets/images/Holy-Joe.webp"
 import img11 from "../assets/images/The-Human-Temple.webp"
-import img22 from "../assets/images/smallm.webp"
-import img23 from "../assets/images/small8445435626_efd474fb3f_b.webp"
-import img24 from "../assets/images/smallgettyIma.webp"
+// import img22 from "../assets/images/smallm.webp"
+// import img23 from "../assets/images/small8445435626_efd474fb3f_b.webp"
+// import img24 from "../assets/images/smallgettyIma.webp"
 
 
 const Aside = ( ) => {
@@ -82,7 +82,7 @@ const Aside = ( ) => {
                     <li><a href="/">COMMENT</a></li>
                 
             </ul>
-        <section>
+        {/* <section>
             <div>
                 <img src= {img1} alt="josphe with a stike" />
                 <div>
@@ -136,7 +136,7 @@ const Aside = ( ) => {
                 </div>
                 
             </div>  
-        </section>
+        </section> */}
 
             <h3>We are members!</h3>
         </aside>
