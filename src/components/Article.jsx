@@ -1,13 +1,16 @@
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Article = props => {
-    return props.list.map(({ imgSrc, imgAlt, date, href, title, preview, objectID }) => {
+const Article = ({list}) => {
+
+    return list.map(({ imgSrc, imgAlt, date, href, title, preview, objectID }) => {
         return (
-            <article key={objectID}>
+            <div key={objectID} className="container-sm article d-flex flex-column flex-md-row p-3 " style={{maxWidth:'750px'}}>
                 <figure >
-                    {/* <img src={require('../assets/images/img_0337.webp')} alt={imgAlt} />  */}
+                    <img src={imgSrc} alt={imgAlt}  className="image-fluid rounded " style={{width:'350px', height:'270px'}}/> 
                 </figure>
 
-                <div className="main">
+                <div className="p-1">
                     <span className="date">{date}</span>
 
                     <h3>
@@ -16,9 +19,9 @@ const Article = props => {
 
                     <p>{preview}</p>
 
-                    <button> <a href={href}>More</a> </button>
+                    <button className="btn btn-danger text-decoration-none text-white"> <a href={href}  >More</a> </button>
                 </div>
-            </article>
+            </div>
         )
     })
 }

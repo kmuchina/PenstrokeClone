@@ -1,6 +1,9 @@
 import Header from "./components/Header"
-import Main from "./components/Main"
-import Aside from "./components/Aside";
+import BothAsideMain from "./components/BothAsideMain";
+import Footer from "./components/Footer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
 
 
 const App = () => {
@@ -9,12 +12,13 @@ const App = () => {
     	<>
 			<Header />
 
-			<div id="wrapper">
-				<Main />
-				 <Aside /> 
+			<div>
+				<BothAsideMain /> 
 			</div>
-
-			<footer></footer>
+			<div>
+				<Footer/>
+			</div>	
+			
 		
 
 		</>

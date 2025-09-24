@@ -14,9 +14,11 @@ const Main = props => {
     const [articles, setArticles] = React.useState([])
 
     React.useEffect(() => {
-        getArticles().then(res => {
+        getArticles()
+        .then(res => {
             setArticles(res.data.articles)
-        }).catch(() => {
+        })
+        .catch(() => {
             console.log("Error Fetching Data")
         })
     }, [])
